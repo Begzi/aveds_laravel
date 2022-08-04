@@ -5,3 +5,9 @@ Laravel Framework 7.30.6
 Миграция для создания таблиц есть. Выполнить компанду php artisan migrate
 Была выключена проверка на CSRF app->HTTP->Kernel.php закоментировал следующую строку
             // \App\Http\Middleware\VerifyCsrfToken::class,
+
+.env
+
+DB_DATABASE=test
+DB_USERNAME=root
+DB_PASSWORD=root
